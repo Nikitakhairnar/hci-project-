@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width,initial-scale-1.0">
+    <title>Ice cream shop</title>
+
+
+    <link href="payment.css"rel="stylesheet">
+  </head>
+  <body>
+
+
+    <div class="wrapper">
+
+      <div class="slide pl-5" >
+        <img src="images/img2.jpg" id="slideimg">
+      </div>
+      <h2>Payment Option</h2>
+
+      <form>
+        <h4>Account</h4>
+        <div class="input-group">
+          <div class="input-box">
+            <input type="text" placeholder="Full Name" class="name" required>
+            <i class="fa fa-user icon"</i>
+          </div>
+          <div class="input-box">
+            <input type="text" placeholder="Nick Name" class="name" required>
+            <i class="fa fa-user icon"></i>
+          </div>
+        </div>
+        <div class="input-group">
+          <div class="input-box">
+            <input type="email" placeholder="Email id" class="name" required>
+            <i class="fa fa-envelope icon"></i>
+
+          </div>
+
+        </div>
+        <div class="input-group">
+          <div class="input-box">
+            <h4>Date of Birth</h4>
+            <input type="text" placeholder="DD" class="dob" required>
+            <input type="text" placeholder="MM" class="dob" required>
+            <input type="text" placeholder="YYYY" class="dob" required>
+          </div>
+          <div class="input-box"><h4>Gender</h4>
+            <input type="radio" name="gender" checked id="b1" class="radio" >
+            <label for="b1">Male</label>
+            <input type="radio" name="gender" class="radio" id="b2">
+            <label for="b2">Female</label>
+
+          </div>
+        </div>
+        <div class="input-group">
+          <div class="input-box">
+            <h4>Payment Details</h4>
+            <input type="radio" name="Pay" id="bc1" checked class="radio">
+            <label for="bc1"><span><i class="fa fa-cc-visa"></i>Credit Card</span></label>
+            <input type="radio" name="Pay" id="bc2" class="radio">
+            <label for="bc2"><span><i class="fa fa-cc-netbanking"></i>PayPal</span></label>
+          </div>
+        </div>
+        <div class="input-group">
+          <div class="input-box">
+            <input type="tel" class="name" placeholder="Card Number" required>
+            <i class="fa fa-credit-card-icon"></i>
+
+          </div>
+        </div>
+        <div class="input-group">
+          <div class="input-box">
+            <input type="tel" required placeholder="Card CVC">
+            <i class="fa fa-user-icon"></i>
+        </div>
+        <div class="input-box">
+          <select>
+            <option value="Jan">Jan</option>
+            <option value="Feb">Feb</option>
+            <option value="Mar">Mar</option>
+            <option value="Apr">Apr</option>
+            <option value="May">May</option>
+            <option value="Jun">Jun</option>
+            <option value="Jul">Jul</option>
+            <option value="Aug">Aug</option>
+            <option value="Sep">Sep</option>
+            <option value="Oct">Oct</option>
+            <option value="Nov">Nov</option>
+            <option value="Dec">Dec</option>
+          </select>
+          <select>
+            <option>2021</option>
+            <option>2022</option>
+            <option>2023</option>
+            <option>2024</option>
+          </select>
+        </div>
+
+        <div class="cards">
+            <img src="images/mc.png" alt="">
+            <img src="images/vi.png" alt="">
+            <img src="images/pp.png" alt="">
+        </div>
+        <div class="submit" style="align-items:right">
+
+          <button class="btn"><a href="paysuccessful.html">Pay Now</a></button>
+
+        </div>
+
+      </div>
+      </form>
+
+
+
+    </div>
+
+  </body>
+</html>

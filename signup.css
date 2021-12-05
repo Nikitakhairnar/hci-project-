@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: url(images/bg4.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.container{
+	color: purple;
+	position: absolute;
+	top:12%;
+	left:50%;
+	border: 2px solid white;
+	border-radius: 7px;
+	padding: 20px;
+}
+
+.container h1{
+	font-size: 40px;
+	border-bottom: 5px solid purple;
+	margin-bottom: 15px;
+	padding: 13px;
+	display: inline-block;
+}
+
+.box{
+	width: 100%;
+	border-bottom: 2px solid purple;
+	margin: 22px 0px;
+}
+
+.box input{
+	width: 75%;
+	background: none;
+	font-size: 20px;
+	outline: none;
+	border: none;
+	color: purple;
+	padding: 5px 10px;
+}
+
+.box i{
+	width:  25px;
+	text-align: center;
+	padding: 0 12px;
+}
+
+.btn{
+	cursor: pointer;
+	outline: none;
+	width: 45%;
+	margin: 12px 0px;
+	padding: 10px 21px;
+	border-radius: 7px;
+	border: 2px solid purple;
+	font-size: 18px;
+	background: none;
+	color: white;
+	font-weight: bold;
+}
+
+.btn a{
+	text-decoration: none;
+	color: white;
+}
+
+.btn:hover{
+	background: purple;
+	opacity: 0.5;
+}
+
+.signup a{
+	color: purple;
+}
+
+#fp{
+	float: right;	
+	text-decoration: underline;
+}
+
+#fp:hover{
+	cursor: pointer;
+}

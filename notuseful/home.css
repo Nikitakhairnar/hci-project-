@@ -1,0 +1,154 @@
+*{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.navbar{
+	display:flex;
+	position:sticky;
+	background-color:#DB7093;
+	height: 9%;
+	width: 100%;
+}
+
+
+.navbar ul{
+	display: flex;
+	text-align: center;
+}
+
+.navbar ul li{
+	list-style: none;
+	padding: 10px 3px;
+	color: white;
+}
+
+#name{
+	font-style: italic;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+.navbar ul li a:hover{
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#btn{
+	height: 30px;
+	width: 80px;
+	border-radius: 6px;
+	margin-left: 0px;
+}
+
+#btn:hover{
+	background-color: red;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+}
+
+.carousel-body{
+	height:32rem;
+	width: 100%;
+	margin: 0;
+}
+
+.carousel-content {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  z-index: 20;
+  color: black;
+}
+
+.home{
+	color: black;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	border: 3px solid black;
+}
+
+.home h5{
+	text-align: center;
+}
+
+/*ice cream variet section*/
+#variety{
+	display:flex;
+	height: fit-content;
+}
+
+.tag{
+	height: fit-content;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#variety h1{
+	padding-top: 10px;
+}
+
+#variety .box{
+	border:2px solid brown;
+	padding:34px;
+	margin:2px 6px;
+	border-radius:23px;
+	background-color:#ffaebc;
+	height: fit-content;
+}
+
+#variety .box img{
+	height:160px;
+	margin:auto;
+	display:block;
+}
+
+#variety .box p{
+	font-family: 'Baloo Bhai 2', cursive;
+}
+
+/*utility classes*/
+.primary{
+	font-size:2.8rem;
+	font-family: 'PT Serif', serif;
+	text-align:center;
+}
+
+.secondary{
+	font-family: 'PT Serif', serif;
+	font-size:1.5rem;
+}
+
+.center{
+	text-align:center;
+}
+
+.special h3{
+	text-align: center;
+	font-style: italic;
+	height: fit-content;
+	padding-bottom: 7px;
+	background-color:#DB7093 ;
+	color: white;
+}
+
+#img{
+	height: 30rem;
+	border: 2px solid pink;
+	border-radius: 8px;
+	margin: 1px;
+}
+
+.footer{
+	background-color: black;
+}
